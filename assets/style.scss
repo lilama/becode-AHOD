@@ -3,13 +3,20 @@ body{
     $color_first: #6e6b88;
     $color_second: #d5824b;
     $font: arial,helvetica, sans-serif;
-    color: #6e6b88;
+    color: $color_first;
+    header{
+        text-align: center;
+        height: 100vh;
+    }
     #section3{
+        height: 100vh;
         h2 {
             color: $color_second;
+            background-color: $color_first;
         }
         h3{
             font-weight: bold;
+            color:$color_second;
         }
     }
 }
