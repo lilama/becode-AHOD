@@ -8,8 +8,61 @@ body{
         text-align: center;
         height: 100vh;
     }
+    #section1{
+        background: url('./images/maison.jpg') fixed center center no-repeat;
+        background-size: cover;
+        p {
+            color: #d5824b;
+        }
+
+        /*# sourceMappingURL=style.css.map */
+        article {
+            background-color: rgba(255, 255, 255, 0.9);
+        }
+        .col-12 {
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+    }
+    #section2{
+        background: url('./images/background.jpg') fixed center center no-repeat;
+        background-size: cover;
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: #d5824b;
+            margin: 0;
+            padding: 20px 10px;
+        }
+
+        ul {
+            margin: 0;
+        }
+
+        ul li {
+            list-style: none;
+        }
+
+        ul p {
+            margin: 0;
+        }
+        h2 {
+            background-color: rgba(255, 255, 255, 0.7);
+            background-color: #6e6b88;
+        }
+        .col-12 {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 10px 20px;
+        }
+    }
     #section3{
-        height: 100vh;
+        // background: url('./images/contact.jpg') fixed center center no-repeat;
+        // background-size: cover;
+        .col-12 {
+            background-color: rgba(255, 255, 255, 0.8);
+        }
         h2 {
             color: $color_second;
             background-color: $color_first;
@@ -17,6 +70,27 @@ body{
         h3{
             font-weight: bold;
             color:$color_second;
+        }
+    }
+    footer{
+        #logo img {
+            width: 80%;
+            ;
+        }
+
+        #partners li {
+            width: 32%;
+            display: inline-block;
+            /* float: left; */
+        }
+
+        #partners li img {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        #copyright p {
+            text-align: center;
         }
     }
 }

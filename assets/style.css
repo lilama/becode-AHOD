@@ -7,8 +7,64 @@ body header {
   height: 100vh;
 }
 
-body #section3 {
-  height: 100vh;
+body #section1 {
+  background: url("./images/maison.jpg") fixed center center no-repeat;
+  background-size: cover;
+  /*# sourceMappingURL=style.css.map */
+}
+
+body #section1 p {
+  color: #d5824b;
+}
+
+body #section1 article {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+body #section1 .col-12 {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+body #section2 {
+  background: url("./images/background.jpg") fixed center center no-repeat;
+  background-size: cover;
+}
+
+body #section2 h1,
+body #section2 h2,
+body #section2 h3,
+body #section2 h4,
+body #section2 h5,
+body #section2 h6 {
+  color: #d5824b;
+  margin: 0;
+  padding: 20px 10px;
+}
+
+body #section2 ul {
+  margin: 0;
+}
+
+body #section2 ul li {
+  list-style: none;
+}
+
+body #section2 ul p {
+  margin: 0;
+}
+
+body #section2 h2 {
+  background-color: rgba(255, 255, 255, 0.7);
+  background-color: #6e6b88;
+}
+
+body #section2 .col-12 {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px 20px;
+}
+
+body #section3 .col-12 {
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 body #section3 h2 {
@@ -19,5 +75,24 @@ body #section3 h2 {
 body #section3 h3 {
   font-weight: bold;
   color: #d5824b;
+}
+
+body footer #logo img {
+  width: 80%;
+}
+
+body footer #partners li {
+  width: 32%;
+  display: inline-block;
+  /* float: left; */
+}
+
+body footer #partners li img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+body footer #copyright p {
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
