@@ -1,0 +1,19 @@
+{
+    "short_name": "MQH",
+    "name": "Maison de quartier d'Helmet",
+    "display": "standalone",
+    "background_color": "#ffff",
+    "theme_color": "#6e6b88",
+    "icons": [
+        {
+            "src": "https://www.guidesocial.be/_images/assoc/500x500/14706122995789519.jpg",
+            "type": "image/jpg",
+            "sizes": "192x192"
+        },
+        {
+            "src": "https://www.guidesocial.be/_images/assoc/500x500/14706122995789519.jpg",
+            "type": "image/jpg",
+            "sizes": "512x512"
+        }
+    ]
+}
