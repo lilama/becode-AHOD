@@ -4,9 +4,42 @@ body{
     $color_second: #d5824b;
     $font: arial,helvetica, sans-serif;
     color: $color_first;
+    .scale-in-center {
+        -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+    @-webkit-keyframes scale-in-center {
+        0% {
+            -webkit-transform: scale(0);
+            transform: scale(0);
+            opacity: 1;
+        }
+        100% {
+            -webkit-transform: scale(1);
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+
+    @keyframes scale-in-center {
+        0% {
+            -webkit-transform: scale(0);
+            transform: scale(0);
+            opacity: 1;
+        }
+        100% {
+            -webkit-transform: scale(1);
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+
     header{
         text-align: center;
         height: 100vh;
+        button{
+            width:15em;
+        }
     }
     #section1{
         background: url('./images/maison.jpg') fixed center center no-repeat;
@@ -16,9 +49,9 @@ body{
         }
 
         /*# sourceMappingURL=style.css.map */
-        article {
-            background-color: rgba(255, 255, 255, 0.9);
-        }
+        // article {
+        //     background-color: rgba(255, 255, 255, 0.9);
+        // }
         .col-12 {
             background-color: rgba(255, 255, 255, 0.8);
         }
