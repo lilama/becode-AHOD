@@ -1,8 +1,12 @@
 body {
-  color: #000000;
+  color: #6e6b88;
 }
 
-body s#ection3 h2 {
+body #section3 h2 {
   color: #d5824b;
+}
+
+body #section3 h3 {
+  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */

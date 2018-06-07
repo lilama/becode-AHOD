@@ -3,10 +3,13 @@ body{
     $color_first: #6e6b88;
     $color_second: #d5824b;
     $font: arial,helvetica, sans-serif;
-    color: #000000;
-    s#ection3{
+    color: #6e6b88;
+    #section3{
         h2 {
             color: $color_second;
+        }
+        h3{
+            font-weight: bold;
         }
     }
 }
